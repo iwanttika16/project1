@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.name h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: blueviolet;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  z-index: 1050;
+}
+
+ul {
+  background-color: black;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 0px !important;
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+ul li a:hover {
+  background-color: blueviolet;
+}
+
+.dropdown ul {
+  background-color: rgb(15, 14, 15);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  ;
+}
+
+.dropdown ul li {
+  display: block;
+  padding: 0px;
+  margin-top: 10px;
+  ;
+}
+
+.dropdown {
+  display: none;
+}
+
+ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+}
